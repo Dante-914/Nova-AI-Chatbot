@@ -83,7 +83,7 @@ export default async (req, context) => {
       },
       body: JSON.stringify({
         model: MODEL,
-        max_tokens: 1024,
+        max_tokens: 740,
         messages: apiMessages,
       }),
     });
